@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.assign {
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #111;
+    background-color: none;
+    outline: none;
+    width: calc(50% - 10px);
+}
+.assign > div {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    font-size: 18px;
+}
+.assign > div:first-of-type {
+    text-align: center;
+}
+.classes-list h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-transform: capitalize;
+}
+.classes-list div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.classes-list div span {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(155, 10, 95);
+}
